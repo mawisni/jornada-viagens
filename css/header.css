@@ -19,6 +19,11 @@ header {
     margin-top: 24px;
 }
 
+/* Lê-se: quando o input checkbox for selecionado, vai pegar o elemento irmão (~) nav e aplicar os estilos selecionados */
+input[type="checkbox"]:checked ~ nav {
+    display: block;
+}
+
 nav {
     display: none;
 }
