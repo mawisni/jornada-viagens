@@ -39,8 +39,11 @@ button {
   box-sizing: border-box;
 }
 
-h1 {
+body {
   font-family: "Montserrat";
+}
+
+h1 {
   font-weight: var(--title-weight);
   color: var(--primary-color);
 }
